@@ -50,12 +50,10 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shadow/proprietary/bin/dmt:/system/bin/dmt \
     vendor/moto/shadow/proprietary/bin/dund:/system/bin/dund \
     vendor/moto/shadow/proprietary/bin/ecckeyd:/system/bin/ecckeyd \
-    vendor/moto/shadow/proprietary/bin/fdisk:/system/bin/fdisk \
     vendor/moto/shadow/proprietary/bin/firewall.sh:/system/bin/firewall.sh \
     vendor/moto/shadow/proprietary/bin/fmradioserver:/system/bin/fmradioserver \
     vendor/moto/shadow/proprietary/bin/ftmipcd:/system/bin/ftmipcd \
     vendor/moto/shadow/proprietary/bin/gkilogd:/system/bin/gkilogd \
-    vendor/moto/shadow/proprietary/bin/Hostapd:/system/bin/Hostapd \
     vendor/moto/shadow/proprietary/bin/loadpreinstalls.sh:/system/bin/loadpreinstalls.sh \
     vendor/moto/shadow/proprietary/bin/mdm_panicd:/system/bin/mdm_panicd \
     vendor/moto/shadow/proprietary/bin/napics.sh:/system/bin/napics.sh \
@@ -171,6 +169,5 @@ PRODUCT_COPY_FILES += \
     vendor/moto/shadow/proprietary/lib/libFMRadio.so:system/lib/libFMRadio.so \
     vendor/moto/shadow/proprietary/lib/libfmradio_jni.so:system/lib/libfmradio_jni.so \
     vendor/moto/shadow/proprietary/lib/libfmradioplayer.so:system/lib/libfmradioplayer.so \
-    vendor/moto/shadow/proprietary/lib/hw/sensors.shadow.so:/system/lib/hw/sensors.shadow.so \
-    vendor/moto/shadow/proprietary/lib/hw/gps.shadow.so:/system/lib/hw/gps.shadow.so 
+    vendor/moto/shadow/proprietary/lib/hw/gps.shadow.so:/system/lib/hw/gps.shadow.so
 
